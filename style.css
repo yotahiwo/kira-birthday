@@ -1249,10 +1249,15 @@ video {
     background-color: #e7e5de;
 }
 
-.photo-11 {
-    background-size: contain;
-    background-repeat: no-repeat;
+.gallery-item.large .photo-11 {
+    min-height: 0 !important;
+    height: 430px !important;
+
+    background-size: contain !important;
     background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: transparent;
 }
 
 
