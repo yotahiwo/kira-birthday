@@ -1240,14 +1240,10 @@ video {
         height: 480px;
     }
 }
-#today .real-photo {
-    width: 100%;
-    height: 560px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #e7e5de;
-}
+
+/* =========================================================
+   GALLERY PHOTO FIXES
+   ========================================================= */
 
 .gallery-item.large .photo-11 {
     min-height: 0 !important;
@@ -1260,7 +1256,12 @@ video {
     background-color: transparent;
 }
 
-
+.photo-4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e7e5de;
+}
 /* =========================================================
    REDUCE MOTION
    ========================================================= */
