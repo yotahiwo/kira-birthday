@@ -1249,6 +1249,11 @@ video {
     background-color: #e7e5de;
 }
 
+.photo-11 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 /* =========================================================
